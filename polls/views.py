@@ -7,7 +7,7 @@ def index(request):
     for q in q_all:
         res += "<li>%s</li>" % q.text
     res += "</ol>"
-    return HttpResponse("<h1>Hello World</h1>")
+    return HttpResponse(res)
     
 def meme(request):
     return HttpResponse("<img src='https://www.meme-arsenal.com/memes/4a8e6d4124c75f8de55e002c067c430e.jpg'>")
