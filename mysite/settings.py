@@ -25,7 +25,7 @@ SECRET_KEY = '42!f^zw%d3(x$374-%4z*l4g0km2f^0)=rvix#akigqc0_(m7z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["brat12345.pythonanywhere.com", '127.0.0.1', 'localhost']
 
 
 # Application definition
